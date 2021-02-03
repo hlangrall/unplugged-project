@@ -86,6 +86,118 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* ------- Base Header - Footer Styles -------*/
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* Header styles */
+
+header {
+
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.header-divider {
+
+}
+
+header nav {
+
+}
+
+header nav ul {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ----- Mobile styles - Homepage ----*/
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+
+.reviews {
+  color: red;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+
+
+/*-----Footer-----*/
+
+footer {
+
+}
+
+footer .content-wrapper {
+
+}
+
+.contact {
+
+}
+
+.social {
+
+}
+
+.social-icon {
+
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+
+
+
 
 /* ==========================================================================
    Helper classes
@@ -260,4 +372,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
