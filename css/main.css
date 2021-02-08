@@ -99,7 +99,7 @@ footer {
 /* Header styles */
 
 header {
-
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -107,20 +107,39 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 55%;
+  margin: 0;
+}
+
+header img{
+
+}
+
+.content-wrapper {
+  width: 90%;
 }
 
 .header-divider {
-
+  width: 98%;
 }
 
 header nav {
-
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  width: 45%;
+  padding: 20px 0;
+}
+
+header nav ul li {
+  padding: 0 20px;
   list-style: none;
 }
 
@@ -144,10 +163,31 @@ footer .social-icons p {
   align-items: center;
 }
 
+.hero-area h1 {
+  padding: 53px 0 0 20px;
+}
+
 aside {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
+  padding: 20px;
+}
+
+.form-description {
+
+}
+
+.form {
+  padding: 20px 0;
+}
+
+.form input {
+  width:90%;
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0;
 
 }
 
@@ -155,30 +195,59 @@ aside {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  padding: 20px;
 }
 
-
-.reviews {
-  color: red;
+.features .features-items {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
 
+.features article {
+  width: 55%;
+  margin: 10% 20%;
+}
+
+.features p {
+  margin: 0;
+}
+
+.fontawesome-icons, .features-item-description {
+  padding: 75px 25px;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 0 20px;
+}
+
+.reviews h3 {
+  width: 89%;
+  padding: 50px 0;
+}
 
 
 /*-----Footer-----*/
 
 footer {
-
+  flex-flow: column;
+  padding: 50px 70px;
 }
 
 footer .content-wrapper {
+  width: 55%;
+}
 
+footer p {
+  margin: 0;
 }
 
 .contact {
-
+  text-align: center;
 }
 
 .social {
@@ -190,10 +259,7 @@ footer .content-wrapper {
 }
 
 .copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row;
+  margin: 20px 0;
 }
 
 
