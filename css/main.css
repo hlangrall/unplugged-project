@@ -357,6 +357,22 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
+.map figure {
+  position: relative;
+  padding-bottom: 125%;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .contact-section {
   background-color: #2a423a;
   display: flex;
