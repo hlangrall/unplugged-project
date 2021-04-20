@@ -223,16 +223,23 @@ footer .content-wrapper {
 footer .contact {
   margin-bottom: 50px;
 }
+
+footer .social i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
 footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-direction: row;
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 footer .copyright {
@@ -312,6 +319,11 @@ input[type=button] {
 .features article {
   width: 63%;
   margin: 30px 0;
+}
+
+.features i {
+  font-size: 3.75em;
+  margin-bottom: 40px;
 }
 
 .features .features-items {
