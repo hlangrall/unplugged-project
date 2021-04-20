@@ -228,9 +228,10 @@ footer .social i {
   font-size: 3.75em;
   margin-bottom: 40px;
 }
+
 footer .social-icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
 }
@@ -782,6 +783,26 @@ aside .content-wrapper .form {
 
 footer h4 {
   font-size: 1.875em;
+}
+
+footer .footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.social h4 {
+  padding-top: 50px;
+}
+
+.social-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.social-icon p {
+  margin: 0 20px;
 }
 
 /* ==========================================================================
